@@ -22,3 +22,25 @@
         fuzzy ->
             a23f_isin_range("hi", ["Hello!", "Haruhi Lyn"], 0): False
             a23f_isin_range("hi", ["Hello!", "Haruhi Lyn"], 0): True
+            
+# Functions Counting Certain Numbers
+    1. a23f_num_unique(target_rng as range, optional exclude_empty=1)
+        This function will return how many different values are in a range.
+    
+    2. a23f_num_isin_cell(target_char, target_cell, Optional fuzzy = 0)
+        Returns how many target_chars are in the target_cell.
+        
+    3. a23f_num_isin_range(target_cell, target_rng As Range, Optional fuzzy = 0)
+        Returns how many string/characters in target_cell are in the target_rng.
+        
+# Functions Getting Certain Values From A Cell Or A Range
+    1. a23f_get_after(target_string, separator)
+        Returns the part in target_string after the first separator in target_string, 
+        returns whole target_string if none of separator was in it.
+    
+    2. a23f_get_before(target_string, separator)
+        Returns the part in target_string before the first separator in target_string,
+        returns whole target_string if none of separator was in it.
+
+
+
